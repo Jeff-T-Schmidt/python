@@ -46,11 +46,6 @@
 # print(names)
 # print(len(names))
 
-# tosh_friends = ['liam', 'jesse', 'niko', 'star', 'brenda', 'jeff']
-
-# for tosh_friend in tosh_friends:
-#     print(f"{tosh_friend.title()} is Tosh's friend!")
-#     print(f"Tosh should go and stay at your house, if that is cool {tosh_friend.title()}.\n")
 
 # squares = []
 
@@ -83,3 +78,29 @@
 # foods = ("\nveg","rice", "beans", "stuff", "water")
 # for food in foods:
 #     print(food)
+
+# tosh_friends = ['liam', 'jesse', 'niko', 'star', 'brenda', 'jeff']
+
+# for tosh_friend in tosh_friends:
+#     print(f"{tosh_friend.title()} is Tosh's friend!")
+#     print(f"Tosh should go and stay at your house, if that is cool {tosh_friend.title()}.\n")\
+
+
+# Got it to work!
+# banned_users = ['tosh', 'jeff', 'brenda', 'john']
+# users = ["nancy", 'brady', 'john']
+
+# for banned_user in banned_users:
+#     print(f"{banned_user.title()} you can't leave a message")
+# for user in users:
+#     if banned_user != user:
+#         print(f"\n{user.title()} you are free to leave a comment!")
+
+user_0 = {
+    'first_name':'jeff',
+    'last__name': 'schmidt',
+    'middle_name':'tosh'
+}
+for k, v in user_0.items():
+    print(f"\nKey: {k}")
+    print(f"Value: {v}")
