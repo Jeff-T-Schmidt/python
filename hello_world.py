@@ -96,11 +96,63 @@
 #     if banned_user != user:
 #         print(f"\n{user.title()} you are free to leave a comment!")
 
-user_0 = {
-    'first_name':'jeff',
-    'last__name': 'schmidt',
-    'middle_name':'tosh'
-}
-for k, v in user_0.items():
-    print(f"\nKey: {k}")
-    print(f"Value: {v}")
+# user_0 = {
+#     'first_name':'jeff',
+#     'last__name': 'schmidt',
+#     'middle_name':'tosh'
+# }
+# for k, v in user_0.items():
+#     print(f"\nKey: {k}")
+#     print(f"Value: {v}")
+
+# 6/23/2022
+
+# prompt = "if you tell me your name, I will personalize a message for you."
+# prompt += "\nWhat is your name?"
+
+# name = input(prompt)
+# print(f"\nHello {name.title()}")
+
+# height = input("How tall are you, in inches?")
+# height = int(height)
+
+# if height >= 48:
+#     print("\nYou are tall enough to ride")
+# else:
+#     print("\nYou aren't tall enough, sorry, better luck next year!")
+
+# prompt = "\nWhat pizza toppings would you like"
+# prompt += "\n(Enter 'quit' when you are finished)"
+
+# while True:
+#         pizza_toppings = input(prompt)
+
+#         if pizza_toppings == 'quit':
+#             print("Thank you, pizza is going in the oven, see ya soon!")
+#             break
+#         else:
+#             print(f"{pizza_toppings.title()} has been added to the pie!")
+
+# responses = {}
+# polling_active = True
+
+# while polling_active:
+#     name = input("\nWhat is your name?")
+#     response = input("Which mountain would you like to climb someday?")
+
+#     responses[name.title()]= response
+
+#     repeat = input("Would you like to let another person resond? (yes/no)") 
+#     if repeat == 'no':
+#         polling_active = False
+
+# print("----Polling results----")
+# for name, response in responses.items():
+#     print(f"{name} would like to climb {response}.")
+
+# def make_sandwich(size, *toppings):
+#     print(f"Making a {size}-inch sandwhich with the following toppings:")
+#     for topping in toppings:
+#         print(f"-{topping}")
+
+# make_sandwich(10, 'ham', 'turkey', 'lettuce', 'tomato')
